@@ -43,9 +43,6 @@
     height: 100%;
     width: 100%;
     }
-    html, body, a {
-    cursor: url('https://cursors3.totallyfreecursors.com/thumbnails/flower13.gif'), auto;
-    }
     @media (max-width: 768px) {
     html {
     margin-left: auto;
@@ -60,9 +57,6 @@
     line-height: 1.6;
     background-color: light-dark(var(--light-surface), var(--dark-surface));
     color: light-dark(var(--light-text), var(--dark-text));
-    }
-    h1, h2, h3, h4, h5, h6, p, li {
-    text-transform: lowercase;
     }
     ::selection {
     background: light-dark(var(--light-highlight), var(--dark-highlight));
@@ -88,8 +82,6 @@
     }
     nav a:hover {
     text-decoration: none;
-    }
-    nav a:visited {
     }
     /* Footer */
     footer {
@@ -187,8 +179,6 @@
     border-radius: .5em;
     border-spacing: 0;
     }
-    thead {
-    }
     th, td {
     padding: .5em .75em; 
     border-left: 1px solid light-dark(var(--light-highlight), var(--dark-highlight));    
@@ -212,39 +202,6 @@
     }
     tr:last-of-type td:last-of-type {
     border-bottom-right-radius: .5em;
-    }
-    /* Upvote button */
-    #upvote-form {
-    display: block !important;
-    margin: 2em 0 !important;
-    }
-    .upvote-button svg,
-    .upvote-count {
-    display: none;
-    }
-    .upvote-button {
-    display: block !important;
-    font-size: 1rem;
-    font-family: Monospace;
-    }
-    .upvote-button::before {
-    content: "<3";
-    cursor: pointer;
-    color: light-dark(var(--light-love), var(--dark-rose)) !important;
-    text-decoration-line: underline;
-    text-decoration-style: dotted;
-    }
-    .upvote-button:hover::before {
-    content: "<3";
-    cursor: pointer;
-    color: light-dark(var(--light-love), var(--dark-rose)) !important;
-    text-decoration-style: solid;
-    }
-    .upvote-button[disabled]::before {
-    content: "<♡3";
-    cursor: url('https://cursors3.totallyfreecursors.com/thumbnails/flower13.gif'), auto;
-    color: light-dark(var(--light-foam), var(--dark-foam)) !important;
-    text-decoration: none;
     }
     /* Blog list */
     ul.embedded.blog-posts {
